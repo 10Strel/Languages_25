@@ -34,6 +34,7 @@ while (!resInputCheck)
 
 result = Pow(numberA, numberB);
 
+Console.OutputEncoding = System.Text.Encoding.Unicode;
 Console.WriteLine($"{numberA}{NumberToSuperscript(numberB)} -> {Math.Round(result, 4)}");
 
 double Pow(double number, int degree)
